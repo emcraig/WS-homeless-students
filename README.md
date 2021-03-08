@@ -51,7 +51,7 @@ Schema Used: Project Open Data
 | format | CSV & XLSX |
 | mediaType | CSV & XLSX |
 | issued | 2021-03-05 |
-| keywords (tags) | homelessness, homeless students, K-12, education, at-risk youth |
+| keywords (tags) | 'homelessness', 'homeless students', 'K-12', 'education', 'at-risk youth', 'washington state', 'king county', 'pierce county', 'snohomish county', 'spokane county', 'yakima county' |
 | landingPage | [https://https://github.com/emcraig/WS-homeless-students](https://https://github.com/emcraig/WS-homeless-students) |
 | language | EN-US |
 | modified | 2021-03-08 |
