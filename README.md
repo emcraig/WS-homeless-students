@@ -43,7 +43,7 @@ Schema Used: Project Open Data
 | --- | --- |
 | title | Washington State Homeless Students |
 | accessLevel | public |
-| contactPoint | Em Craig | [mailto:emcraig@uw.edu](mailto:emcraig@uw.edu) |
+| contactPoint | Em Craig , [mailto:emcraig@uw.edu](mailto:emcraig@uw.edu) |
 | describedBy | [https://https://github.com/emcraig/WS-homeless-students](https://github.com/emcraig/WS-homeless-students) |
 | description |  These data examine the number of homeless K-12 students in Washington state compared against yearly enrollment, identify individual statistics in King, Pierce, Snohomish, Spokane, and Yakima counties, and high-risk students with additional needs within the homeless population. The audience for this dataset is Washington State policymakers and the public. Created as part of a UW iSchool Course, Winter 2021.|
 | accessURL | [https://github.com/emcraig/WS-homeless-students/blob/main/hsc-WS_2015-2019.csv](https://github.com/emcraig/WS-homeless-students/blob/main/hsc-WS_2015-2019.csv) |
