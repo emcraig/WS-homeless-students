@@ -41,28 +41,32 @@ Schema Used: Project Open Data
 
 | **Attribute** | **Value** |
 | --- | --- |
+| title | Washington State Homeless Students |
 | accessLevel | public |
-| accrualPeriodicity | R/P1Y |
-| fn | Em Craig |
-| hasEmail | [mailto:emcraig@uw.edu](mailto:emcraig@uw.edu) |
+| contactPoint | Em Craig | [mailto:emcraig@uw.edu](mailto:emcraig@uw.edu) |
 | describedBy | [https://https://github.com/emcraig/WS-homeless-students](https://github.com/emcraig/WS-homeless-students) |
 | description |  These data examine the number of homeless K-12 students in Washington state compared against yearly enrollment, identify individual statistics in King, Pierce, Snohomish, Spokane, and Yakima counties, and high-risk students with additional needs within the homeless population. The audience for this dataset is Washington State policymakers and the public. Created as part of a UW iSchool Course, Winter 2021.|
 | accessURL | [https://github.com/emcraig/WS-homeless-students/blob/main/hsc-WS_2015-2019.csv](https://github.com/emcraig/WS-homeless-students/blob/main/hsc-WS_2015-2019.csv) |
-| format | CSV |
-| mediaType | CSV |
-| issued | 2020-03-15 |
+| downloadURL | [https://github.com/emcraig/WS-homeless-students/blob/main/hsc-WS_2015-2019.xlsx](https://github.com/emcraig/WS-homeless-students/blob/main/hsc-WS_2015-2019.xlsx)
+| format | CSV & XLSX |
+| mediaType | CSV & XLSX |
+| keywords (tags) | homelessness, homeless students, K-12, education, at-risk youth |
+| issued | 2021-03-05 |
 | keyword | &quot;recycling&quot;, &quot;diversion&quot;, &quot;palo alto&quot;, &quot;seattle&quot;, &quot;san francisco&quot;, &quot;washington&quot;, &quot;california&quot; |
 | landingPage | [https://https://github.com/emcraig/WS-homeless-students](https://https://github.com/emcraig/WS-homeless-students) |
-| language | en-us |
+| language | EN-US |
 | modified | 2021-03-08 |
 | publisher | Em Craig |
-| Rights | All data represented in this dataset are freely accessible to the public, as they are hosted here on gitHub and any respective source organizations. |
-| temporal | 2020/P1Y |
-| theme | homelessness, homeless students, K-12, education, at-risk youth |
-| title | Washington State Homeless Students |
+| related documents | Washington Office of Superintendent of Public instruction datasets:
+[https://www.k12.wa.us/sites/default/files/public/homelessed/pubdocs/Copy%20of%202019HomelessGradeLevel%28County_Suppressed%29.xlsx](https://www.k12.wa.us/sites/default/files/public/homelessed/pubdocs/Copy%20of%202019HomelessGradeLevel%28County_Suppressed%29.xlsx)
+[https://www.k12.wa.us/sites/default/files/public/homelessed/pubdocs/Copy%20of%202018HomelessGradeLevel%28County_Suppressed%29.xlsx](https://www.k12.wa.us/sites/default/files/public/homelessed/pubdocs/Copy%20of%202018HomelessGradeLevel%28County_Suppressed%29.xlsx)
+[https://www.k12.wa.us/sites/default/files/public/homelessed/pubdocs/Copy%20of%202017HomelessGradeLevel%28County_Suppressed%29.xlsx](https://www.k12.wa.us/sites/default/files/public/homelessed/pubdocs/Copy%20of%202017HomelessGradeLevel%28County_Suppressed%29.xlsx)
+[https://www.k12.wa.us/sites/default/files/public/homelessed/pubdocs/Copy%20of%202016HomelessGradeLevel%28County_Suppressed%29.xlsx](https://www.k12.wa.us/sites/default/files/public/homelessed/pubdocs/Copy%20of%202016HomelessGradeLevel%28County_Suppressed%29.xlsx)
+[https://www.k12.wa.us/sites/default/files/public/homelessed/pubdocs/Copy%20of%202015HomelessGradeLevel%28County_Suppressed%29.xlsx](https://www.k12.wa.us/sites/default/files/public/homelessed/pubdocs/Copy%20of%202015HomelessGradeLevel%28County_Suppressed%29.xlsx)
 
-## Referenced Datasets & Sources
-
+Washington State Office of Financial Management Enrollment report(s):
+[https://ofm.wa.gov/washington-data-research/statewide-data/washington-trends/budget-drivers/kindergarten-through-grade-12-k-12-enrollment](https://ofm.wa.gov/washington-data-research/statewide-data/washington-trends/budget-drivers/kindergarten-through-grade-12-k-12-enrollment)
+| rights | All data represented in this dataset are freely accessible to the public, as they are hosted here on gitHub and any respective source organizations. |
 
 
 ## Contact
