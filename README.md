@@ -1,6 +1,6 @@
 ## Information & Introduction
 
-The dataset included herein was created as part of a course in the MLIS program at the University of Washington iSchool. Compiling data provided by the Washington Office of Superintendant of Public Instruction and the Office of Financial Management, these data examine the total number of homeless K-12 students in Washington state compared against yearly enrollment, as well as identifying the individual homeless student statistics in King, Pierce, Snohomish, Spokane, and Yakima counties, as they consistently accounted for the largest homeless student count figures across surveyed years. Also included are the number of homeless students statewide, per count, identified as students with disabilities, unaccompanied youth, or English-language learners, emphasizing additional, crucial need within homeless student populations. 
+The dataset included herein was created as part of a course in the MLIS program at the University of Washington iSchool. Compiling data provided by the Washington Office of Superintendant of Public Instruction (WOSPI) and the Office of Financial Management (WSOFM), these data examine the total number of homeless K-12 students in Washington state compared against yearly enrollment, as well as identifying the individual homeless student statistics in King, Pierce, Snohomish, Spokane, and Yakima counties, as they consistently accounted for the largest homeless student count figures across surveyed years. Also included are the number of homeless students statewide, per count, identified as students with disabilities, unaccompanied youth, or English-language learners, emphasizing additional, crucial need within homeless student populations. 
 
 The foremost intended audience for these data are policymakers, however the dataset is freely available to the public and intended to be readable and useful to citizens, especially of Washington State and the aforementioned counties. It is presented in both **.csv** and **.xls** formats for download.
 
@@ -23,17 +23,17 @@ This file could be updated as a living document, with the latter year in the dat
 | **Variable** | **Variable Name** | **Measurement Unit** | **Allowed Values** | **Definition** |
 | --- | --- | --- | --- | --- |
 | **survey_Year** | Survey Year | Date | Year / YYYY | Year of the conducted homeless student count |
-| **hsc_KingC** | Metal Tonnage | Numerical | Integers greater than 0 | Total tonnage of metal recycled in 2017 (from city reports), different metal types added into single value |
-| **hsc_PierceC** | Paper Tonnage | Numerical | Integers greater than 0 | Total tonnage of paper recycled in 2017 (from city reports), different paper types added into single value |
-| **hsc_SnohomishC** | Plastic Tonnage | Numerical | Integers greater than 0 | Total tonnage of plastic recycled in 2017 (from city reports), different plastic types added into single value |
-| **hsc_SpokaneC** | Average Cost per Ton | Numerical | Numbers greater than 0 (USD) | Averaged cost in USD of recycling a ton of materials in 2017 (from city reports) |
-| **hsc_YakimaC** | Diversion Rate | Numerical | Numbers between 0-100 (percentage) | Total percentage of diverted landfill materials in 2017, pulled directly from report |
-| **hst_WA_State** | Population Size | Numerical | Integers greater than 0 | Population size in people (Census) |
-| **te_WA_State** | Area | Numerical | Numbers greater than 0 (miles squared) | Area of city in miles squared (Census)  |
-| **%homeless_SW** | ZScore of Metal Tonnage | Numerical | Any number | ZScore of total tonnage of metal recycled in 2017 (from city reports), different metal types added into single value |
-| **swt_hs_Disabled** | ZScore of Paper Tonnage | Numerical | Any number | ZScore of total tonnage of paper recycled in 2017 (from city reports), different paper types added into single value |
-| **swt_hs_ELL** | ZScore of Plastic Tonnage | Numerical | Any number | ZScore of total tonnage of plastic recycled in 2017 (from city reports), different plastic types added into single value |
-| **swt_hs_UY** | ZScore of Average Cost per Ton | Numerical | Any number | ZScore of averaged cost of recycling a ton of materials in USD in 2017 (from city reports) |
+| **hsc_KingC** | Homeless student count King County | Integer | Any number ≥ 0 | Sum of homeless K-12 students in King County from the indicated survey year (from WOSPI surveys).  |
+| **hsc_PierceC** | Homeless student count Pierce County | Integer | Any number ≥ 0 | Sum of homeless K-12 students in Pierce County from the indicated survey year (from WOSPI surveys). |
+| **hsc_SnohomishC** | Homeless student count Snohomish County | Integer | Any number ≥ 0 | Sum of homeless K-12 students in Snohomish County from the indicated survey year (from WOSPI surveys). |
+| **hsc_SpokaneC** | Homeless student count Spokane County | Integer | Any number ≥ 0 | Sum of homeless K-12 students in Spokane County from the indicated survey year (from WOSPI surveys). |
+| **hsc_YakimaC** | Homeless student count Yakima County | Integer | Any number ≥ 0 | Sum of homeless K-12 students in Yakima County from the indicated survey year (from WOSPI surveys). |
+| **hst_WA_State** | Homeless student total Washington State | Integer | Any number ≥ 0 | Total number of homeless K-12 students in Washington State (all counties) from the indicated survey year (from WOSPI surveys). |
+| **te_WA_State** | Total K-12 enrollment Washington State | Integer | Any number ≥ 0 | Total number of K-12 students enrolled in Washington State schools from the indicated survey year (from WSOFM reports).  |
+| **%homeless_SW** | Percent of students homeless statewide | Percentage | 0% - 100% | Percentage of students classed as homeless in a surveyed year. Calculated by dividing the year's value for hst_WA_State (from WOSPI surveys) by the same year's te_WA_State (from WSOFM reports). |
+| **swt_hs_Disabled** | statewide total Disabled homeless students | Integer | Any number ≥ 0 | Total number of homeless students in Washington State identified as students with disabilities from the indicated survey year (from WOSPI surveys). |
+| **swt_hs_ELL** | statewide total English Language Learner homeless students | Integer | Any number ≥ 0 | Total number of homeless students in Washington State identified as English Language Learners from the indicated survey year (from WOSPI surveys). |
+| **swt_hs_UY** | statewide total Unaccompanied Youth homeless students | Integer | Any number ≥ 0 | Total number of homeless students in Washington State identified as Unaccompanied Youth from the indicated survey year (from WOSPI surveys). |
 
 ## Metadata
 Schema Used: Project Open Data
