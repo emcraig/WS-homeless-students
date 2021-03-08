@@ -50,9 +50,8 @@ Schema Used: Project Open Data
 | downloadURL | [https://github.com/emcraig/WS-homeless-students/blob/main/hsc-WS_2015-2019.xlsx](https://github.com/emcraig/WS-homeless-students/blob/main/hsc-WS_2015-2019.xlsx)
 | format | CSV & XLSX |
 | mediaType | CSV & XLSX |
-| keywords (tags) | homelessness, homeless students, K-12, education, at-risk youth |
 | issued | 2021-03-05 |
-| keyword | &quot;recycling&quot;, &quot;diversion&quot;, &quot;palo alto&quot;, &quot;seattle&quot;, &quot;san francisco&quot;, &quot;washington&quot;, &quot;california&quot; |
+| keywords (tags) | homelessness, homeless students, K-12, education, at-risk youth |
 | landingPage | [https://https://github.com/emcraig/WS-homeless-students](https://https://github.com/emcraig/WS-homeless-students) |
 | language | EN-US |
 | modified | 2021-03-08 |
